@@ -1,0 +1,60 @@
+.accordion {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.multi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.multi div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.multi div span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.multi div span.red {
+  background-color: red;
+}
+
+.multi div span.green {
+  background-color: green;
+}
+
+.multi button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.item {
+  border: 2px solid black;
+  margin-top: 1.5rem;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.question:hover {
+  background: lightgray;
+}
+
+.question, .answer {
+  padding: 0 2rem;
+}
+
+.answer {
+  border-top: 1px solid gray;
+}
